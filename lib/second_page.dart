@@ -1,22 +1,32 @@
-import 'package:flutter/material.dart';
+import 'dart:async';
 
-class SecondPage extends StatelessWidget {
-  List image;
-  static final String id='second_page';
-   SecondPage({super.key,required this.image});
+import 'package:flutter/material.dart';
+import 'package:lesson_1/home_page.dart';
+import 'package:lottie/lottie.dart';
+
+class SecondPage extends StatefulWidget {
+  const SecondPage({super.key});
+
+  @override
+  State<SecondPage> createState() => _SecondPageState();
+}
+
+class _SecondPageState extends State<SecondPage> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Timer(Duration(seconds: 4), () {
+     Navigator.pushReplacementNamed(context, HomePage.id);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
-    int count = 0;
     return Scaffold(
-      body: GridView.count(
-        crossAxisCount: 2,
-        children: [
-          Image.asset(image[0]),
-          Image.asset(image[1]),
-        ],
-      )
-
+      body: Center(
+        child: Lottie.asset("assets/loading.json"),
+      ),
     );
   }
 }

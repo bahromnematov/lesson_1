@@ -1,0 +1,26 @@
+class About {
+  String about;
+
+  About(this.about);
+}
+
+class AboutList {
+  List<About> list = [
+    About(
+        "Alisher Navoiy (9-fevral 1441-yildan 3-yanvar 1501-yilgacha umr koʻrgan) — oʻzbek va boshqa turkiy xalqlarning shoiri, mutafakkiri va davlat arbobi[1][2][3]. Gʻarbda Chigʻatoy adabiyotining buyuk vakili deb qaraladi.Tarixchi Ali Yazdiy nazariga tushgan, shoir Lutfiy yosh shoir isteʼdodiga yuqori baho bergan, Kamol Turbatiy eʼtirofini qozongan. Sayyid Hasan Ardasher, Pahlavon Muhammad kabi ustozlardan taʼlim olgan, Abdurahmon Jomiy bilan ijodiy hamkorlikda boʻlgan. Navoiy 1469-yilgacha temuriylar orasidagi ichki nizolar sababli Hirotdan yiroqroqda yashagan."),
+    About(
+        "Amir Temur (Eski turkcha: امیر تیمور – Amir Temur) (1336-yil 9-aprel – 1405-yil 18-fevral) – oʻrta asrlarning buyuk turk askari va qoʻmondoni, Temuriylar imperiyasi asoschisi, Oltin Oʻrda, Mamluk sultonligi, Dehli sultonligi, Usmonli davlati, Kavkaz va Erondagi davlatlarni barisini yengishi ortidan musulmon olamining to'la yetakchisi, yeri 4,4 mln km² ga yetishgan 14-yuzyilliknig eng kuchli davlati quruvchisi, 35 yillik boshqaruvi va yurishlari chogʻida biror urushni yutqazmagan qoʻshinboshi, o'tmishda koʻrilgan uchta buyuk harbiy-taktik urush va yurush qo'mondonlaridan biri, Temurlilar uygʻonish davri yaratuvchisi, ilm-fan, meʼmorchilik, sanʼat va adabiyot homiysi."),
+    About(
+        "Bobur (taxallusi) toʻliq ismi - Zahiriddin Muhammad ibn Umarshayx Mirzo. U 1483-yil 14-fevral–1530-yil 26-dekabr) — oʻzbek mumtoz adabiyotining yirik vakili, shoir, tarixchi, geograf, davlat arbobi, isteʼdodli sarkarda, boburiylar sulolasi asoschisi, temuriy shoh boʻlgan. Amir Temurning pannevarasi boʻlgan[2]. Bobur oʻz davrining buyuk shaxslaridan biri edi. Uning sheʼrlari, ruboiylari oʻz vaqtida va hozir ham sevib oʻqilmoqda. 6 ta xotini boʻlgan. Bibi Muboraka, Mohimbegim, Zaynab Sulton Begim, Oysha Sulton Begim, Maʼsuma Sulton Begim va Soliha Sulton Begim."),
+    About(
+        "Islom Abdugʻaniyevich Karimov (1938-yil 30-yanvar, Samarqand shahri — 2016-yil 2-sentyabr, Toshkent shahri[2]) — davlat va siyosat arbobi, Oʻzbekiston Respublikasining birinchi prezidenti. Oʻzbekiston Qahramoni (1994). Oʻzbekiston Qurolli Kuchlari Oliy Bosh Qoʻmondoni va 2007-yilgi prezidentlik saylovlari gʻolibi, 2015-yilgi prezidentlik saylovlari gʻolibi. Oʻzbekiston mustaqilligi eʼlon qilingunga qadar OʻzSSR kommunistik partiyasi birinchi kotibi. 1991-yildan umrining oxiriga qadar Oʻzbekiston Prezidenti. Islom Karimov boshchiligida Oʻzbekiston oʻzining Konstitutsiyasiga ega boʻldi, BMTda tan olindi va MDH davlatlari bilan teng huquqli aloqalarni olib borgan."),
+    About(
+        "Albert Einstein (/ˈaɪnstaɪn/ EYEN-styne;[4] German: [ˈalbɛɐt ˈʔaɪnʃtaɪn] ⓘ; 14 March 1879 – 18 April 1955) was a German-born theoretical physicist who is widely held to be one of the greatest and most influential scientists of all time. Best known for developing the theory of relativity, Einstein also made important contributions to quantum mechanics, and was thus a central figure in the revolutionary reshaping of the scientific understanding of nature that modern physics accomplished in the first decades of the twentieth century.[1][5] His mass–energy equivalence formula E = mc2, which arises from relativity theory, has been called the world's most famous equation.[6] He received the 1921 Nobel Prize in Physics for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect,[7] a pivotal step in the development of quantum theory. His work is also known for its influence on the philosophy of science.[8][9]"),
+    About(
+        "Isaak Nyuton - (inglizcha: Isaac Newton) Ingliz fizigi va matematigi, klassik mexanikaning asoschisi Isaak Nyuton tarixdagi eng mashhur olimlardan biri. Nyuton 1643 –yil 4-yanvarida Angliyaning Linkolnshir shahrida fermer oilasida tugʻildi. U Kembrij universitetining matematika fakultetiga oʻqishga kirdi va uni 1665-yil tamomladi. Oʻsha yili chuma epidemiyasi kasalligi keng tarqala boshladi va bu kasallik Kembrij shahrigayam yetib keldi, natijada universitet yopildi. Keyinchalik Nyuton oʻz shahri Linkolnshirga qaytdi. 1668-yilda Nyutonga magistr unvoni, berildi va shundan soʻng u Kembridj universitetida fizika-matematika kafedrasiga boshchilik qila boshladi. 1672-yilda u London Qirollik jamiyatining aʼzosi qilib saylandi, 1703-yilgacha esa uning prezidenti boʻldi. Isaak Nyutonning ilm-fanga, xususan matematika, fizika faniga qoshgan hissasi benihoyat ulkandir. U fizika va matematika fanlariga juda koʻplab qonunlarni va teoreyalarni kiritdi. Harakat va tortishish qonunlarini, butun olam tortishish qonuni, yorugʻlik qonuniyatlari, yorugʻlikning tarqalishi ni oʻrgandi. Nyuton matematik hisoblarni qoʻllab koʻp asrlik muammo boʻlgan koinotdagi samoviy jismlar harakati muammolarini hal etdi. Yerning tortish kuchi borligini isbotladi, Aytishlaricha uning bu boradagi izlanishiga sabab: daraxt tagida o’tirganda boshiga olma tushgani ekan. O’zi kashf qilgan butun olam tortishish qonunini Nyuton muvaffaqiyatli ravishda osmon jismlarining harakatini tushuntirishga tadbiq qildi.")
+  ];
+
+  About getinformation(int index) {
+    return list[index];
+  }
+}
