@@ -31,11 +31,18 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           children: [
             itemPost(
+                images: [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEEcIxqY759_i9Tq-TDHPebdNwfiO4nA1ZQ&s",
+                  "assets/tarixiy/bobur.jpg",
+                  "assets/tarixiy/enshtyn.png",
+                  "assets/tarixiy/islom.png"
+                ],
                 image: "assets/tarixiy/alisher.jpg",
                 name: "Alisher Navoiy",
                 index: 0,
                 age: "1441-yil 1501-yil"),
             itemPost(
+                images: [],
                 image: "assets/tarixiy/temur.jpg",
                 name: "Amir Temur",
                 index: 1,
@@ -67,7 +74,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget itemPost({image, name, age,index}) {
+  Widget itemPost({image, name, age, index, images}) {
     return Card(
       child: Container(
           height: MediaQuery.of(context).size.height / 10,
@@ -81,6 +88,7 @@ class _HomePageState extends State<HomePage> {
                   image: image,
                   name: name,
                   index: index,
+                  images: images,
                 );
               }));
             },

@@ -6,11 +6,13 @@ class DetailsPage extends StatefulWidget {
   String image;
   String name;
   int index;
+  List images;
 
   DetailsPage(
       {super.key,
       required this.image,
       required this.name,
+      required this.images,
       required this.index});
 
   @override
@@ -37,7 +39,7 @@ class _DetailsPageState extends State<DetailsPage> {
                     color: Colors.white,
                   ),
                 ),
-                expandedHeight: 240.0,
+                expandedHeight: MediaQuery.of(context).size.height / 3,
                 floating: false,
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
@@ -83,16 +85,28 @@ class _DetailsPageState extends State<DetailsPage> {
                   child: PageView(
                     children: [
                       Container(
-                        color: Colors.red,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image: NetworkImage(widget.images[0]),
+                                fit: BoxFit.cover)),
                       ),
                       Container(
-                        color: Colors.grey,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage(widget.images[1]),
+                                fit: BoxFit.cover)),
                       ),
                       Container(
-                        color: Colors.green,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage(widget.images[2]),
+                                fit: BoxFit.cover)),
                       ),
                       Container(
-                        color: Colors.yellow,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage(widget.images[3]),
+                                fit: BoxFit.cover)),
                       ),
                     ],
                   ),
